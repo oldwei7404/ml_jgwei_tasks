@@ -7,6 +7,20 @@ from sklearn.cross_validation import train_test_split
 from sklearn import ensemble
 from sklearn.metrics import mean_squared_error
 
+import sys
+sys.path.append('C:\\Users\\jianwei\\Dropbox\\git_prj\\ml_util')
+#sys.path.append('..\\ml_util')
+from util_plot import *
+
+print ('hahaha')
+exit(-2)
+
+a = np.random.randn(1, 3) # a.shape = (4, 3)
+b = np.random.randn(5, 1) # b.shape = (3, 2)
+c = a + b
+print (c)
+
+exit(-1)
 ## source data
 file_name = "indian_liver_patient.csv"
 

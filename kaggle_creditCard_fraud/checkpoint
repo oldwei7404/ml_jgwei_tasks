@@ -1,0 +1,2 @@
+model_checkpoint_path: "kaggle_creditcard_fraud_model.ckpt"
+all_model_checkpoint_paths: "kaggle_creditcard_fraud_model.ckpt"
